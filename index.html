@@ -2,300 +2,311 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Protfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sameer Khatri | Java Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-    <!-- Header -->
+    <!-- Navbar -->
     <header>
         <nav>
-            <div class="left">Sameer's Portfolio</div>
-            <div class="right">
-                <ul>
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>Projects</a></li>
-                    <li><a>Contact Me</a></li>
-                </ul>
+            <div class="logo" width="50px">Sameer Khatri</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </div>
         </nav>
     </header>
 
-    <main>
-        <!-- First section for intro -->
-        <section class="firstSection">
-            <div class="left">
-                Hi, My name is <span class="purple">Sameer</span>
-                <div>I am a passionate</div>
-                <span id="element" class="purple"></span>
-                <div class="button">
-                    <a href="Web_Developer_Sameer_khatri.pdf"><button class="btn">Download Resume</button></a>
-                    <a href="https://github.com/Sameerdev512"><button class="btn">Visit Github</button></a>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi, I'm <span class="highlight">Sameer Khatri</span></h1>
+            <h2>Java Developer & Full Stack Engineer</h2>
+            <p>B.Tech Computer Science student specializing in Java, Spring Boot, and React development with experience
+                in building scalable web applications.</p>
+            <div class="buttons">
+                <a href="Java_Developer_Sameer_khatri.pdf" class="btn" download>Download Resume</a>
+                <a href="https://github.com/Sameerdev512" class="btn btn-outline">View Projects</a>
+            </div>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/sameer-khatri-7152b5268" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Sameerdev512" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://wa.me/9111045198" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="mailto:sameerkhatridev512@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-img">
+            <img src="bg3.png" alt="Sameer Khatri - Java Developer" />
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I am a passionate Java developer with expertise in full-stack application development. Currently
+                    pursuing my B.Tech in Computer Science from Sri Aurobindo Institute Of Technology (2022-2026), I
+                    specialize in building robust backend systems with Java and Spring Boot while creating intuitive
+                    frontend interfaces with ReactJS.</p>
+                <p>My technical skills span across Java, Spring Framework, ReactJS, MySQL, and various web technologies.
+                    I enjoy solving complex problems and creating efficient, scalable solutions that bridge technology
+                    with real-world needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Sri Aurobindo Institute Of Technology</h3>
+                    <span class="date">Jun 2022 - Jun 2026</span>
+                </div>
+                <p class="degree">B.Tech - Computer Science and Engineering</p>
+                <p class="location">Indore, Madhya Pradesh</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>CodSoft Technologies</h3>
+                    <span class="date">Jun 2024 - Jul 2024</span>
+                </div>
+                <p class="position">Web Developer (Remote)</p>
+                <ul class="experience-details">
+                    <li>Created user-friendly and visually appealing web projects including a calculator application,
+                        landing page, and portfolio website using HTML5, CSS3, and JavaScript</li>
+                    <li>Implemented responsive design principles to ensure compatibility across devices</li>
+                    <li>Improved website performance by optimizing code and ensuring fast load times</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>GoLocal</h3>
+                        <span class="date">Present</span>
+                    </div>
+                    <p class="project-tech">Java | SpringBoot | SQL | JavaScript | ReactJS</p>
+                    <ul class="project-details">
+                        <li>Developed a shop listing and search platform connecting local retailers with customers</li>
+                        <li>Built secure backend with Spring Boot and REST APIs with MySQL database</li>
+                        <li>Created dynamic frontend with React featuring real-time search and seller registration</li>
+                    </ul>
+                    <a href="https://github.com/Sameerdev512/GoLocal-backend" class="project-link" target="_blank">View
+                        on GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Lost and Found</h3>
+                        <span class="date">Mar 2025</span>
+                    </div>
+                    <p class="project-tech">Java | SpringBoot | SQL | JavaScript | ReactJS</p>
+                    <ul class="project-details">
+                        <li>Developed campus platform for reporting and recovering lost items with verification</li>
+                        <li>Built with Java, Spring Boot backend and ReactJS frontend with MySQL database</li>
+                        <li>Features clean, responsive interface enhancing campus trust and accountability</li>
+                    </ul>
+                    <a href="https://github.com/Sameerdev512/lost-and-found-backend" class="project-link"
+                        target="_blank">View on GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>E-Commerce (Amazon Clone)</h3>
+                        <span class="date">Aug 2024</span>
+                    </div>
+                    <p class="project-tech">JavaScript | ReactJS | Bootstrap | CSS3</p>
+                    <ul class="project-details">
+                        <li>Implemented Amazon clone with UI and cart system using React</li>
+                        <li>Utilized component-based architecture for reusable components</li>
+                        <li>Leveraged React state management, Routers, and Hooks for dynamic product management</li>
+                    </ul>
+                    <a href="https://github.com/Sameerdev512/Amazon-Clone-With-React" class="project-link"
+                        target="_blank">View on GitHub</a>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="right">
-                <img src="bg3.png" alt="">
-            </div>
-        </section>
-
-        <hr>
-
-        <!-- second section for education -->
-
-        <span class="center">
-            <h1>My<span class="purple"> Journey</span></h1>
-        </span>
-
-        <section class="secondSection">
-
-            <!-- school-college information -->
-            <div class="Education">
-                <h3>Education</h3>
-                <div>
-                    <span class="purple">2023 - 2026</span><br>
-                    <span><b>Computer Science - Sri Aurobindo Institute of Technology</b></span><br>
-                    <span class="details">Indore M.P.</span><br>
-                    <span class="currentdetails">Pursuing Computer Science Engineering and silling up myself to be a
-                        Full-stack Web
-                        developer</span>
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-title">Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                    </div>
                 </div>
 
-                <div>
-                    <span class="purple">2021-2022</span><br>
-                    <span><b>Intermediate - New Nageshwar Academy</b></span><br>
-                    <span class="details">MP Board - 93.4% (PCM)</span><br>
-                    <span class="details">Indore M.P.</span>
+                <div class="skill-category">
+                    <h3 class="skill-title">Frameworks & Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">ReactJS</span>
+                        <span class="skill-tag">React Toolkit</span>
+                        <span class="skill-tag">NodeJS</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
                 </div>
 
-                <div>
-                    <span class="purple">2019-2020</span><br>
-                    <span><b>High School - New Nageshwar Academy</b></span><br>
-                    <span class="details">MP Board - 96.0%</span><br>
-                    <span class="details">Indore M.P.</span>
-                </div>
-            </div>
-
-            <!-- Internship Information -->
-            <div class="Education">
-                <h3>Internships</h3>
-                <div>
-                    <span class="purple">Jan 2024 - Feb 2024</span><br>
-                    <span><b>Web Developer Intern - Coding Raja Technologies</b></span><br>
-                    <span class="details">Remote (virtual)</span><br>
-                    <span class="currentdetails">It was a great experience worked on multiplt projects like
-                        Resume-Builder, latest technologies HTML5,CSS and JavaScript.
+                <div class="skill-category">
+                    <h3 class="skill-title">Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Eclipse</span>
+                        <span class="skill-tag">IntelliJ IDEA</span>
+                    </div>
                 </div>
 
-                <div>
-                    <span class="purple">March 2024 - April 2024</span><br>
-                    <span><b>Core & Advanced Java - yplison IT Solution</b></span><br>
-                    <span class="details">@ Sri Aurobindo Institute Of Technology</span><br>
-                    <span class="currentdetails">I attend a comprehensive 1-month internship focused on Core and
-                        Advanced Java
-                        programming. This immersive experience provided me with a robust understanding of Java
-                        fundamentals and advanced
-                        concepts, preparing me for real-world application development.</span>
-                </div>
-
-                <!-- <div>
-                    <span class="purple">2021-2022</span><br>
-                    <span><b>Intermediate - New Nageshwar Academy</b></span><br>
-                    <span class="details">MP Board - 93.4% (PCM)</span><br>
-                    <span class="details">Indore M.P.</span>
-                </div>
-                <div>
-                    <span class="purple">2019-2020</span><br>
-                    <span><b>High School - New Nageshwar Academy</b></span><br>
-                    <span class="details">MP Board - 96.0%</span><br>
-                    <span class="details">Indore M.P.</span>
-                </div> -->
-            </div>
-        </section>
-
-        <hr>
-
-        <!-- third section for skills -->
-
-        <span class="center">
-            <h1>My<span class="purple"> Skills</span></h1>
-        </span>
-
-        <section class="thirdSection">
-
-            <div class="skills">
-                <h3>Coding Skills</h3>
-                <div class="codingSkill"> <!--skills like html css and js -->
-
-                    <spa class="skillHeading">HTML
-                        <span>
-                            <div class="box">
-                                <div class="skill_level1"></div>
-                            </div>
-                        </span><br>
-
-                        <span class="skillHeading">CSS
-                        </span><br>
-                        <span>
-                            <div class="box">
-                                <div class="skill_level2"></div>
-                            </div>
-                        </span><br>
-
-                        <span class="skillHeading">JavaScript
-                        </span><br>
-                        <span>
-                            <div class="box">
-                                <div class="skill_level3"></div>
-                            </div>
-                        </span><br>
-
-                        <span class="skillHeading">React JS
-                        </span><br>
-                        <span>
-                            <div class="box">
-                                <div class="skill_level3"></div>
-                            </div>
-                        </span><br>
-
-                        <span class="skillHeading">C
-                        </span><br>
-                        <span>
-                            <div class="box">
-                                <div class="skill_level4"></div>
-                            </div>
-                        </span><br>
-
-                        <span class="skillHeading">C++
-                        </span><br>
-                        <span>
-                            <div class="box">
-                                <div class="skill_level5"></div>
-                            </div>
-                        </span><br>
-
-                        <span class="skillHeading">Core Java
-                        </span><br>
-                        <span>
-                            <div class="box">
-                                <div class="skill_level3"></div>
-                            </div>
-                        </span><br>
-
-
+                <div class="skill-category">
+                    <h3 class="skill-title">CS Fundamentals</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Data Structures & Algorithms</span>
+                        <span class="skill-tag">Object-Oriented Programming</span>
+                        <span class="skill-tag">Database Management</span>
+                        <span class="skill-tag">Operating Systems</span>
+                        <span class="skill-tag">Software Engineering</span>
+                        <span class="skill-tag">Artificial Intelligence</span>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <!--skills like web designer , web development -->
-            <div class="skills">
-                <h3>Professional Skills</h3>
-                <div class="codingSkill">
+<!-- Updated Certifications Section -->
+<section id="certifications" class="section">
+    <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certifications-list">
+            <div class="certification-item">
+                <h3>E-Commerce with React & JavaScript</h3>
+                <p class="issuer">Udemy | 2024</p>
+                <p class="description">Mastered React hooks, state management, and building scalable e-commerce UIs.</p>
+            </div>
+            <div class="certification-item">
+                <h3>Core & Advanced Java</h3>
+                <p class="issuer">YpSilon Technologies | 2023</p>
+                <p class="description">Covered OOPs, multithreading, Spring Boot, and REST APIs.</p>
+            </div>
+            <div class="certification-item">
+                <h3>Problem Solving with C</h3>
+                <p class="issuer">Udemy | 2023</p>
+                <p class="description">Solved 50+ DSA problems (arrays, linked lists, trees).</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-                    <span class="skillHeading">Web
-                    </span><br>
-                    <span>
-                        <div class="box">
-                            <div class="skill_level3"></div>
-                        </div>
-                    </span><br>
+<!-- Updated Activities Section -->
+<section id="activities" class="section">
+    <div class="container">
+        <h2 class="section-title">Leadership & Activities</h2>
+        <div class="activities-list">
+            <div class="activity-item">
+                <h3>Meritorious Student Award</h3>
+                <p class="org">Piramal Pharma Solution | 2024</p>
+                <p class="description">Recognized for academic excellence in Computer Science.</p>
+            </div>
+            <div class="activity-item">
+                <h3>Community Coordinator</h3>
+                <p class="org">Coder’s Club, SAIT | 2023-24</p>
+                <p class="description">Organized coding workshops and hackathons for 100+ students.</p>
+            </div>
+            <div class="activity-item">
+                <h3>AI Workshop Volunteer</h3>
+                <p class="org">NxtWave | 2023</p>
+                <p class="description">Assisted in teaching AI fundamentals to peers.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-                    <span class="skillHeading">Web Designer
-                    </span><br>
-                    <span>
-                        <div class="box">
-                            <div class="skill_level3"></div>
-                        </div>
-                    </span><br>
 
-                    <span class="skillHeading">Front-end Developer
-                    </span><br>
-                    <span>
-                        <div class="box">
-                            <div class="skill_level3"></div>
-                        </div>
-                    </span><br>
-
-                    <span class="skillHeading">C Developer
-                    </span><br>
-                    <span>
-                        <div class="box">
-                            <div class="skill_level4"></div>
-                        </div>
-                    </span><br>
-
-                    <span class="skillHeading">C++ Developer
-                    </span><br>
-                    <span>
-                        <div class="box">
-                            <div class="skill_level5"></div>
-                        </div>
-                    </span><br>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:sameerkhatridev512@gmail.com">sameerkhatridev512@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+919111045198">+91-9111045198</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Indore, Madhya Pradesh, India</span>
                 </div>
             </div>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/sameer-khatri-7152b5268" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Sameerdev512" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://wa.me/9111045198" target="_blank" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="mailto:sameerkhatridev512@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
 
-        </section>
-
-    </main>
-
-    <!-- footer -->
     <footer>
-        <div class="footer">
-            <div class="leftfooter">
-                <span class="Arial">Get in Touch</span><br>
-                <span class="contactreview">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima ad
-                    quibusdam officiis enim
-                    exercitationem. beatae mollitia ullam id neque reprehenderit.</span><br>
-                <div class="iconsection">
-                    <a href="https://wa.me/9111045198"><i class="fa-brands fa-whatsapp fa-2x icons"
-                            style="color: #f9f0f0;"></i></a>
-                    <a
-                        href="https://www.instagram.com/sameerkhatri728/?next=https%3A%2F%2Fabout.instagram.com%2Ffeatures%2Fdirect"><i
-                            class="fa-brands fa-instagram fa-2x icons" style="color: #f9f0f0;"></i></a>
-                    <a
-                        href="https://www.linkedin.com/in/sameer-khatri-7152b5268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i
-                            class="fa-brands fa-linkedin fa-2x icons" style="color: #f9f0f0;"></i></a>
-
-                    <a href="tel:+910000000000"><i class="fa-solid fa-phone fa-xl icons"
-                            style="color: #f9f0f0;"></i></a>
-                </div>
-            </div>
-
-            <div class="rightfooter">
-                <div class="contactinfo">
-                    <a href="mailto:sameerkhatridev512@gmail.com"><i class="fa-regular fa-envelope fa-2x icons"
-                            style="color:#f3e0e0"></i></a>
-                </div>
-
-                <div class="contactinfo">
-                    <a href="https://github.com/Sameerdev512"><i class="fa-brands fa-github fa-2x"
-                            style="color:#f3e0e0"></i></a>
-                </div>
-
-            </div>
+        <div class="container">
+            <p>© 2025 Sameer Khatri. All rights reserved.</p>
+            <p class="credit">Designed & Developed with ❤️ by Sameer Khatri</p>
         </div>
     </footer>
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Web Developer', 'Frontend Developer',],
-            typeSpeed: 50,
-        });
-    </script>
-    <script src="https://kit.fontawesome.com/e7c72b33da.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
