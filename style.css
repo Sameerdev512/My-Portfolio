@@ -206,7 +206,7 @@ nav {
     padding: 0;
     position: relative;
     overflow: hidden;
-    margin-left: vw;
+    margin-left: 10vw;
 }
 
 .hero::before {
