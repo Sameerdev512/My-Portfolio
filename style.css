@@ -251,9 +251,7 @@ border: 1px solid rgba(255, 255, 255, 0.642);
     transition: background-color 0.3s;
 }
 
-.social-links{
-    justify-content: start;
-}
+
 
 /* Primary button */
 .btn-primary {
@@ -728,6 +726,12 @@ footer p {
     .section-title {
         font-size: 2rem;
     }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
 }
 
 @media (max-width: 576px) {
