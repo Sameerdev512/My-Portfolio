@@ -130,7 +130,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: rgba(30, 41, 59, 0.95);
+    background-color: rgba(15, 1, 75, 0.95);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -145,7 +145,7 @@ nav {
 .logo {
     font-size: 1.8rem;
     font-weight: 700;
-    color: var(--primary);
+    color: rgb(197, 195, 246);
 }
 
 .nav-links {
