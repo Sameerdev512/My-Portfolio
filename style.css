@@ -789,10 +789,11 @@ footer p {
 /* Responsive Design */
 @media (max-width: 1024px) {
     .hero {
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin-left: 0;
-        margin-top: 10vh;
+        margin-top: 8vh;
         text-align: center;
+        gap:2vh;
         padding: 2rem 1rem;
     }
 
@@ -812,6 +813,10 @@ footer p {
     .buttons {
         flex-direction: column;
         align-items: center;
+    }
+
+    .social-links{
+        justify-content: center;
     }
 
     .projects-grid,
