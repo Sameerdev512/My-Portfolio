@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sameer Khatri | Java Developer Portfolio</title>
+    <title>Sameer Khatri | Java Full Stack Developer Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
@@ -18,9 +18,12 @@
             <div class="logo" width="50px">Sameer Khatri</div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <!-- <li><a href="#experience">Experience</a></li> -->
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#certifications">Certifications</a></li>
+                <!-- <li><a href="#certifications">Certifications</a></li> -->
+                <!-- <li><a href="#extra">Extra Curricular</a></li> -->
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -35,23 +38,22 @@
     <section class="hero">
         <div class="hero-text">
             <h1>Hi, I'm <span class="highlight">Sameer Khatri</span></h1>
-            <h2>Java Developer & Full Stack Engineer</h2>
-            <p>B.Tech Computer Science student specializing in Java, Spring Boot, and React development with experience
-                in building scalable web applications.</p>
+            <h2>Java Full Stack Developer & Spring Boot Specialist</h2>
+            <p>B.Tech Computer Science student with expertise in Java, Spring Boot, ReactJS, and MySQL. Passionate about building scalable full-stack applications and solving 100+ LeetCode problems.</p>
             <div class="buttons">
-                <a href="Java_Developer_Sameer_khatri.pdf" class="btn" download>Download Resume</a>
-                <a href="https://github.com/Sameerdev512" class="btn btn-outline">View Projects</a>
+                <a href="Resume.pdf" class="btn" download>Download Resume</a>
+                <a href="https://github.com/Sameerdev512" class="btn btn-outline">View GitHub</a>
             </div>
             <div class="social-links">
-                <a href="https://linkedin.com/in/sameer-khatri-7152b5268" target="_blank"><i
-                        class="fab fa-linkedin"></i></a>
+                <a href="https://linkedin.com/in/sameer-khatri-7152b5268" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="https://github.com/Sameerdev512" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://leetcode.com/u/HwDo9H6tXe/" target="_blank"><i class="fas fa-code"></i></a>
                 <a href="https://wa.me/9111045198" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 <a href="mailto:sameerkhatridev512@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
         <div class="hero-img">
-            <img src="bg3.png" alt="Sameer Khatri - Java Developer" />
+            <img src="bg3.png" alt="Sameer Khatri - Java Full Stack Developer" />
         </div>
     </section>
 
@@ -60,13 +62,22 @@
         <div class="container">
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
-                <p>I am a passionate Java developer with expertise in full-stack application development. Currently
-                    pursuing my B.Tech in Computer Science from Sri Aurobindo Institute Of Technology (2022-2026), I
-                    specialize in building robust backend systems with Java and Spring Boot while creating intuitive
-                    frontend interfaces with ReactJS.</p>
-                <p>My technical skills span across Java, Spring Framework, ReactJS, MySQL, and various web technologies.
-                    I enjoy solving complex problems and creating efficient, scalable solutions that bridge technology
-                    with real-world needs.</p>
+                <p>I am a passionate Java Full Stack Developer specializing in Spring Boot backend development and ReactJS frontend. Currently pursuing B.Tech in Computer Science from Sri Aurobindo Institute of Technology with a CGPA of 7.3/10.</p>
+                <p>My expertise includes building RESTful APIs with Spring Boot, creating dynamic UIs with ReactJS and Tailwind CSS, and designing MySQL databases. I have solved 100+ LeetCode problems focusing on Data Structures & Algorithms.</p>
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>B.Tech CSE - 7.3 CGPA</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-code"></i>
+                        <span>100+ LeetCode Problems Solved</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-project-diagram"></i>
+                        <span>Full Stack Project Experience</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -75,13 +86,26 @@
     <section id="education" class="section">
         <div class="container">
             <h2 class="section-title">Education</h2>
-            <div class="education-item">
-                <div class="education-header">
-                    <h3>Sri Aurobindo Institute Of Technology</h3>
-                    <span class="date">Jun 2022 - Jun 2026</span>
+            <div class="education-grid">
+                <div class="education-item">
+                    <div class="education-header">
+                        <h3>Sri Aurobindo Institute of Technology</h3>
+                        <span class="date">2022 - 2026</span>
+                    </div>
+                    <p class="degree">B.Tech - Computer Science and Engineering</p>
+                    <p class="location">Indore, Madhya Pradesh</p>
+                    <p class="grade">CGPA: 7.3/10</p>
                 </div>
-                <p class="degree">B.Tech - Computer Science and Engineering</p>
-                <p class="location">Indore, Madhya Pradesh</p>
+                
+                <div class="education-item">
+                    <div class="education-header">
+                        <h3>New Nageshwar Academy</h3>
+                        <span class="date">2020 - 2022</span>
+                    </div>
+                    <p class="degree">Intermediate (PCM)</p>
+                    <p class="location">Indore, Madhya Pradesh</p>
+                    <p class="grade">Percentage: 93.2%</p>
+                </div>
             </div>
         </div>
     </section>
@@ -90,6 +114,20 @@
     <section id="experience" class="section">
         <div class="container">
             <h2 class="section-title">Experience</h2>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Datacode</h3>
+                    <span class="date">Aug 2025 - Sept 2025</span>
+                </div>
+                <p class="position">Frontend Developer (Remote)</p>
+                <ul class="experience-details">
+                    <li>Developed component-based architecture and created multifunctional, responsive web pages using React.js and Tailwind CSS</li>
+                    <li>Implemented responsive design principles to ensure compatibility across devices, enhancing user experience</li>
+                    <li>Improved website performance by optimizing code, ensuring fast load times, and adhering to best practices for frontend development</li>
+                </ul>
+            </div>
+            
             <div class="experience-item">
                 <div class="experience-header">
                     <h3>CodSoft Technologies</h3>
@@ -97,8 +135,7 @@
                 </div>
                 <p class="position">Web Developer (Remote)</p>
                 <ul class="experience-details">
-                    <li>Created user-friendly and visually appealing web projects including a calculator application,
-                        landing page, and portfolio website using HTML5, CSS3, and JavaScript</li>
+                    <li>Created user-friendly and visually appealing web projects including a calculator application, landing page, and portfolio website using HTML5, CSS3, and JavaScript</li>
                     <li>Implemented responsive design principles to ensure compatibility across devices</li>
                     <li>Improved website performance by optimizing code and ensuring fast load times</li>
                 </ul>
@@ -114,37 +151,43 @@
                 <div class="project-card">
                     <div class="project-header">
                         <h3>GoLocal</h3>
-                        <span class="date">Present</span>
+                        <span class="date">Full Stack Project</span>
                     </div>
-                    <p class="project-tech">Java | SpringBoot | SQL | JavaScript | ReactJS</p>
+                    <p class="project-tech">Java | SpringBoot | MySQL | JavaScript | ReactJS</p>
                     <ul class="project-details">
-                        <li>Developed a shop listing and search platform connecting local retailers with customers</li>
-                        <li>Built secure backend with Spring Boot and REST APIs with MySQL database</li>
-                        <li>Created dynamic frontend with React featuring real-time search and seller registration</li>
+                        <li>Developed a shop listing and search platform allowing users to search for shops and sellers to list their businesses</li>
+                        <li>Built a secure backend with Spring Boot and REST APIs for managing shop and user data stored in MySQL</li>
+                        <li>Created a dynamic frontend with React, responsive design, and seller functionalities</li>
+                        <li>Aim to reduce the gap between local retailers and increase foot traffic</li>
                     </ul>
-                    <a href="https://github.com/Sameerdev512/GoLocal-backend" class="project-link" target="_blank">View
-                        on GitHub</a>
+                    <div class="project-links">
+                        <a href="https://github.com/Sameerdev512/GoLocal-backend" class="project-link" target="_blank">Backend</a>
+                        <a href="https://github.com/Sameerdev512/GoLocal-frontend" class="project-link" target="_blank">Frontend</a>
+                    </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-header">
                         <h3>Lost and Found</h3>
-                        <span class="date">Mar 2025</span>
+                        <span class="date">Full Stack Project</span>
                     </div>
-                    <p class="project-tech">Java | SpringBoot | SQL | JavaScript | ReactJS</p>
+                    <p class="project-tech">Java | SpringBoot | MySQL | JavaScript | ReactJS</p>
                     <ul class="project-details">
-                        <li>Developed campus platform for reporting and recovering lost items with verification</li>
-                        <li>Built with Java, Spring Boot backend and ReactJS frontend with MySQL database</li>
-                        <li>Features clean, responsive interface enhancing campus trust and accountability</li>
+                        <li>Developed a Lost & Found platform for students to list found items and claim lost belongings through verification questions</li>
+                        <li>Designed a responsive, intuitive interface ensuring smooth and user-friendly experience</li>
+                        <li>Enhanced campus trust and accountability, reduced lost item incidents</li>
+                        <li>Provided a secure and structured way to return items to rightful owners</li>
                     </ul>
-                    <a href="https://github.com/Sameerdev512/lost-and-found-backend" class="project-link"
-                        target="_blank">View on GitHub</a>
+                    <div class="project-links">
+                        <a href="https://github.com/Sameerdev512/lost-and-found-backend" class="project-link" target="_blank">Backend</a>
+                        <a href="https://github.com/Sameerdev512/lost-and-found-frontend" class="project-link" target="_blank">Frontend</a>
+                    </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-header">
                         <h3>E-Commerce (Amazon Clone)</h3>
-                        <span class="date">Aug 2024</span>
+                        <span class="date">Frontend Project</span>
                     </div>
                     <p class="project-tech">JavaScript | ReactJS | Bootstrap | CSS3</p>
                     <ul class="project-details">
@@ -152,8 +195,7 @@
                         <li>Utilized component-based architecture for reusable components</li>
                         <li>Leveraged React state management, Routers, and Hooks for dynamic product management</li>
                     </ul>
-                    <a href="https://github.com/Sameerdev512/Amazon-Clone-With-React" class="project-link"
-                        target="_blank">View on GitHub</a>
+                    <a href="https://github.com/Sameerdev512/Amazon-Clone-With-React" class="project-link" target="_blank">View on GitHub</a>
                 </div>
             </div>
         </div>
@@ -183,8 +225,8 @@
                         <span class="skill-tag">Spring Boot</span>
                         <span class="skill-tag">ReactJS</span>
                         <span class="skill-tag">React Toolkit</span>
-                        <span class="skill-tag">NodeJS</span>
                         <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">Tailwind CSS</span>
                     </div>
                 </div>
 
@@ -193,76 +235,91 @@
                     <div class="skill-tags">
                         <span class="skill-tag">Git</span>
                         <span class="skill-tag">GitHub</span>
-                        <span class="skill-tag">Linux</span>
                         <span class="skill-tag">VS Code</span>
                         <span class="skill-tag">Eclipse</span>
-                        <span class="skill-tag">IntelliJ IDEA</span>
+                        <span class="skill-tag">IntelliJ IDEA Ultimate</span>
+                        <span class="skill-tag">MySQL</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3 class="skill-title">CS Fundamentals</h3>
+                    <h3 class="skill-title">Problem Solving & Core Subjects</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Data Structures & Algorithms</span>
                         <span class="skill-tag">Object-Oriented Programming</span>
-                        <span class="skill-tag">Database Management</span>
+                        <span class="skill-tag">Database Management Systems</span>
                         <span class="skill-tag">Operating Systems</span>
-                        <span class="skill-tag">Software Engineering</span>
                         <span class="skill-tag">Artificial Intelligence</span>
+                        <span class="skill-tag">100+ LeetCode Problems</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="skill-title">Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Collaboration</span>
+                        <span class="skill-tag">Public Speaking</span>
+                        <span class="skill-tag">Problem-Solving</span>
+                        <span class="skill-tag">Adaptability</span>
+                        <span class="skill-tag">Team Leadership</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-<!-- Updated Certifications Section -->
-<section id="certifications" class="section">
-    <div class="container">
-        <h2 class="section-title">Certifications</h2>
-        <div class="certifications-list">
-            <div class="certification-item">
-                <h3>E-Commerce with React & JavaScript</h3>
-                <p class="issuer">Udemy | 2024</p>
-                <p class="description">Mastered React hooks, state management, and building scalable e-commerce UIs.</p>
-            </div>
-            <div class="certification-item">
-                <h3>Core & Advanced Java</h3>
-                <p class="issuer">YpSilon Technologies | 2023</p>
-                <p class="description">Covered OOPs, multithreading, Spring Boot, and REST APIs.</p>
-            </div>
-            <div class="certification-item">
-                <h3>Problem Solving with C</h3>
-                <p class="issuer">Udemy | 2023</p>
-                <p class="description">Solved 50+ DSA problems (arrays, linked lists, trees).</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Updated Activities Section -->
-<section id="activities" class="section">
-    <div class="container">
-        <h2 class="section-title">Leadership & Activities</h2>
-        <div class="activities-list">
-            <div class="activity-item">
-                <h3>Meritorious Student Award</h3>
-                <p class="org">Piramal Pharma Solution | 2024</p>
-                <p class="description">Recognized for academic excellence in Computer Science.</p>
-            </div>
-            <div class="activity-item">
-                <h3>Community Coordinator</h3>
-                <p class="org">Coder’s Club, SAIT | 2023-24</p>
-                <p class="description">Organized coding workshops and hackathons for 100+ students.</p>
-            </div>
-            <div class="activity-item">
-                <h3>AI Workshop Volunteer</h3>
-                <p class="org">NxtWave | 2023</p>
-                <p class="description">Assisted in teaching AI fundamentals to peers.</p>
+    <!-- Certifications -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-list">
+                <div class="certification-item">
+                    <h3>Azure AI Fundamentals</h3>
+                    <p class="issuer">Microsoft | 2024</p>
+                    <p class="description">Fundamentals of Artificial Intelligence and Azure AI services</p>
+                </div>
+                <div class="certification-item">
+                    <h3>Core & Advanced Java</h3>
+                    <p class="issuer">YpSilon Technologies | 2023</p>
+                    <p class="description">Comprehensive Java programming with advanced concepts and Spring Boot</p>
+                </div>
+                <div class="certification-item">
+                    <h3>E-Commerce with React & JavaScript</h3>
+                    <p class="issuer">Udemy | 2024</p>
+                    <p class="description">Mastered React hooks, state management, and building scalable e-commerce UIs</p>
+                </div>
+                <div class="certification-item">
+                    <h3>Agile Project Management</h3>
+                    <p class="issuer">HP Life | 2023</p>
+                    <p class="description">Agile methodologies and project management principles</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
+    <!-- Extra Curricular -->
+    <section id="extra" class="section">
+        <div class="container">
+            <h2 class="section-title">Extra Curricular & Leadership</h2>
+            <div class="activities-list">
+                <div class="activity-item">
+                    <h3>Meritorious Student Award</h3>
+                    <p class="org">Piramal Pharma Solution | 2024</p>
+                    <p class="description">Recognized for outstanding academic performance and contributions in Computer Science</p>
+                </div>
+                <div class="activity-item">
+                    <h3>Co-Founder & Volunteer</h3>
+                    <p class="org">GRID Community, SAIT | 2023-Present</p>
+                    <p class="description">Founded and actively volunteer in the GRID community on campus, organizing tech events and workshops</p>
+                </div>
+                <div class="activity-item">
+                    <h3>Problem Solving Achievement</h3>
+                    <p class="org">LeetCode | 2023-Present</p>
+                    <p class="description">Solved 100+ problems on LeetCode focusing on Data Structures & Algorithms</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="section">
@@ -280,6 +337,18 @@
                 <div class="contact-item">
                     <i class="fas fa-map-marker-alt"></i>
                     <span>Indore, Madhya Pradesh, India</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://linkedin.com/in/sameer-khatri-7152b5268" target="_blank">linkedin.com/in/sameer-khatri</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/Sameerdev512" target="_blank">github.com/Sameerdev512</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-code"></i>
+                    <a href="https://leetcode.com/u/HwDo9H6tXe/" target="_blank">leetcode.com/u/sameerdev512</a>
                 </div>
             </div>
         </div>
